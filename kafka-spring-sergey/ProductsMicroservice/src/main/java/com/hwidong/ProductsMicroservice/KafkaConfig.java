@@ -1,6 +1,6 @@
 package com.hwidong.ProductsMicroservice;
 
-import com.hwidong.ProductsMicroservice.products.ProductCreatedEvent;
+import com.hwidong.core.ProductCreatedEvent;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.beans.factory.annotation.Value;
@@ -91,6 +91,7 @@ public class KafkaConfig {
     ProducerFactory<String, ProductCreatedEvent> producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfigs());
     }
+
 
     /**
      * config

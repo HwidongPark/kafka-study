@@ -1,4 +1,5 @@
-package com.hwidong.ProductsMicroservice.products;
+package com.hwidong.core;
+
 
 import lombok.*;
 

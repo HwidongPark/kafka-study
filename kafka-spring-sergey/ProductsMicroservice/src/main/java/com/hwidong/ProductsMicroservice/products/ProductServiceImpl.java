@@ -1,6 +1,7 @@
 package com.hwidong.ProductsMicroservice.products;
 
 import com.hwidong.ProductsMicroservice.rest.CreateProductRestModel;
+import com.hwidong.core.ProductCreatedEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
